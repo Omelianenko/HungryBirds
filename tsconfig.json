@@ -1,0 +1,22 @@
+{
+    "files": [
+        "src/main.ts",
+        "src/Bird.ts",
+        "src/extensionVariables.ts",
+        "src/methods.ts",
+        "src/pred.ts",
+        "src/Food.ts",
+        "src/MapObject.ts"
+    ],
+    "compilerOptions": {
+        "module": "commonjs",
+        "rootDir": ".",
+        "noImplicitAny": false,
+        "target": "es2015",
+        "sourceMap": true,
+        "outDir": "${workspaceFolder}/dist",
+        "baseUrl": "./",
+        "noUnusedParameters": true,
+        "noUnusedLocals": true
+    }
+}
